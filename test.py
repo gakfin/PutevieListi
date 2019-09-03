@@ -15,8 +15,8 @@ write_format = workbook.add_format({
     })
 
 voditel = []
-with open("voditel.txt") as f:
-	for line in f:
+with open("voditel.txt") as s:
+	for line in s:
 		voditel.append([str(x) for x in line.split()])
 
 avto = ["зил", "уаз", "говно"]
